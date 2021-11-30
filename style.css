@@ -6,12 +6,6 @@
 
 header {
     width: 100%;
-    background-color: #ff1616;
-}
-
-img {
-    height: 200px;
-    width: 200px;
 }
 
 .menunav {
@@ -20,5 +14,56 @@ img {
     align-items: center;
     justify-content: space-around;
 }
+
+.about {
+    color: #21468a;    
+    padding: 20px;
+}
+
+.about h1 {
+    padding-bottom: 20px;
+    font-size: 30px;
+}
+
+.about p {
+    padding-bottom: 20px;
+    text-align: justify;
+}
+
+.history {
+    padding: 30px;
+    color: #21468a;
+}
+
+.history h2 {
+    padding: 20px 0 20px 0;
+}
+
+.history p {
+    text-align: justify;
+}
+
+.services h2 {
+    padding: 20px 0 20px 0;
+}
+
+.image-matriz {
+    text-align: center;
+}
+
+.services {
+    text-align: center;
+    padding: 30px;
+}
+
+ul {
+    list-style: none;
+}
+
+.services h3 {
+    padding: 20px;
+}
+
+
 
 
