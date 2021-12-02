@@ -4,9 +4,15 @@
     box-sizing: border-box;
 }
 
+header {
+    background-color:blue;
+    padding: 20px 0;
+}
+
 .cabecalho {
     width: 940px;
     margin: 0 auto;
+    
 }
 
 .menunav img  {
@@ -15,9 +21,20 @@
 
 .menunav {
     display: flex;
+    flex-direction:row;
     align-items: center;
-    justify-content: space-between;
-    
+    justify-content: space-between;   
+}
+
+.menunav ul {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.banner {
+    width: 100%;
+    height: 100%;
 }
 
 .about {
